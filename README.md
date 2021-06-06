@@ -12,14 +12,12 @@
 1. Element.
 
 - Start tag content End tag.
-
-* h1,p,div
+- h1,p,div
 
 2. Empty Element.
 
 - Only Start tag.
-
-* br,hr,img
+- br,hr,img
 
 ### 2.Attribute
 
@@ -48,6 +46,9 @@
 * eg:- span, button, img, br, input
 
 ### 4.Css
+
+- Cascading Style Sheets.
+- It can control the layout of multiple web pages all at once.
 
 1. Inline.
 2. Internal.
