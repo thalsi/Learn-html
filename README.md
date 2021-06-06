@@ -7,26 +7,30 @@
 - html serces of element.
 - html element tell borwser how to dispaly the content.
 
-### 1.Element.
+### 1.Element
 
 1. Element.
 
-- Start tag content End tag --> <h2>content</h2>
+- Start tag content End tag.
+
+* h1,p,div
 
 2. Empty Element.
 
-- Only Start tag --> <br>
+- Only Start tag.
 
-### 2.Attribute.
+* br,hr,img
 
-- All html Element can have Attribute
-- Attribute are providing addtional information
-- Attribute are always spacifed in start tag
-- Attribute usually come in name/value name="value"
+### 2.Attribute
 
-* eg:-href ,src, style, width, higth.....
+- All html Element can have Attribute.
+- Attribute are providing addtional information.
+- Attribute are always spacifed in start tag.
+- Attribute usually come in name/value name="value".
 
-### 3.Type of Element.
+* eg:-href ,src, style, width, higth...
+
+### 3.Type of Element
 
 1. Block level Element.
 
@@ -34,11 +38,26 @@
 - block level element take up full width.
 - block level elenment has a take top and a bottom margin.
 
-* eg:- div, p, h1, hr, ul, li ,ect..
+* eg:- div, p, h1, hr, ul, li
 
 2. Inline Element.
 
 - Inline element don't start a new line.
 - Inline elemnt only takes up as much width.
 
-* eg:- span, button, img, br, input,ect..
+* eg:- span, button, img, br, input
+
+### 4.Css
+
+1. Inline.
+2. Internal.
+3. External.
+
+### 5.Form
+
+- collection of user input
+
+1. Form Attribute.
+2. Form Element.
+3. Form Input type .
+4. Form Input Attribute.
