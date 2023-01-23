@@ -1,5 +1,120 @@
 # HTML 
 
+- https://www.w3schools.com/whatis/whatis_roadmap.asp
+- https://blog.kritikapattalam.com/html-roadmap
+- https://transitionintotech.com/learn-html/
+- https://careerhigh.in/post/roadmap_to_learn_html_css_and_javascript_for_beginners
+- https://roadmap.sh/
+- https://github.com/topics/roadmap?l=html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***
+***
+***
+***
+***
 ### What is html?
 
 - Hyper text markup language.
