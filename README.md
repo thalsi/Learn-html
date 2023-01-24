@@ -1,120 +1,4 @@
 # HTML 
-
-- https://www.w3schools.com/whatis/whatis_roadmap.asp
-- https://blog.kritikapattalam.com/html-roadmap
-- https://transitionintotech.com/learn-html/
-- https://careerhigh.in/post/roadmap_to_learn_html_css_and_javascript_for_beginners
-- https://roadmap.sh/
-- https://github.com/topics/roadmap?l=html
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***
-***
-***
-***
-***
 ### What is html?
 
 - Hyper text markup language.
@@ -177,3 +61,153 @@
 2. Form Element.
 3. Form Input type .
 4. Form Input Attribute.
+
+***
+***
+***
+
+
+
+
+
+
+
+
+
+# HTML (www.w3schools.com)
+
+### What is html?
+- Hyper Text Markup Language.
+- HTML is standard markup language for creating Web pages.
+- HTML consists of a series of elements.
+- HTML elements tell the browser how to display the content.
+
+- markup language list (html, json, docBook etc..)
+### HTML Structure Explained
+`<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <p>My first paragraph.</p>
+    </body>
+</html>`
+
+- `<!DOCTYPE html>` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Reference link
+
+- `https://www.w3schools.com/whatis/whatis_roadmap.asp`
+- `https://blog.kritikapattalam.com/html-roadmap`
+- `https://transitionintotech.com/learn-html/`
+- `https://careerhigh.in/post/roadmap_to_learn_html_css_and_javascript_for_beginners`
+- `https://roadmap.sh/`
+- `https://github.com/topics/roadmap?l=html`
+
+
+
+
+
+
+***
+***
+# My HTML
+
+***
+***
