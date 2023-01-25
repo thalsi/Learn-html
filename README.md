@@ -76,14 +76,14 @@
 
 # HTML (www.w3schools.com)
 
-### What is html?
+### 1.What is html?
 - Hyper Text Markup Language.
 - HTML is standard markup language for creating Web pages.
 - HTML consists of a series of elements.
 - HTML elements tell the browser how to display the content.
 
 - markup language list (html, json, docBook etc..)
-### HTML Structure Explained
+### 2.HTML Structure Explained
 `<!DOCTYPE html>
 <html>
     <head>
@@ -94,10 +94,18 @@
     </body>
 </html>`
 
-- `<!DOCTYPE html>` 
+- `<!DOCTYPE html>` this document is an HTML5 document.
+- `<html></html>` this element is root element of an HTML page.
+- `<head></head>` this element contains meta data/meta information about the HTML page. 
+    + meta data( data that provides information about other data / data that describes other data / information about data)
+- `<title></title>` title of the HTML page(show on bowser's title bar).
+- `<body></body>` element defines the document's body. it will be displayed in a browser
 
-
-
+### 3. Element
+- <tagName>Cotent</tagName>
+- start tag ,some content and end tag 
+- every elements have Start-tag and End-tag but some elements have no end-tag(like <hr>,<br>). those elements are called empty elements
+ 
 
 
 
