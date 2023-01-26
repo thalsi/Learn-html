@@ -84,7 +84,8 @@
 
 - markup language list (html, json, docBook etc..)
 ### 2.HTML Structure Explained
-`<!DOCTYPE html>
+
+``<!DOCTYPE html>
 <html>
     <head>
         <title>Page Title</title>
@@ -92,9 +93,9 @@
     <body>
         <p>My first paragraph.</p>
     </body>
-</html>`
+</html>``
 
-- `<!DOCTYPE html>` this document is an HTML5 document.
+- `<!DOCTYPE html>` document type declaration.this document is an HTML5 document and helps browsers to display web pages correctly. not case sensitive
 - `<html></html>` this element is root element of an HTML page.
 - `<head></head>` this element contains meta data/meta information about the HTML page. 
     + meta data( data that provides information about other data / data that describes other data / information about data)
@@ -104,8 +105,15 @@
 ### 3. Element
 - <tagName>Cotent</tagName>
 - start tag ,some content and end tag 
-- every elements have Start-tag and End-tag but some elements have no end-tag(like <hr>,<br>). those elements are called empty elements
+- every elements have Start-tag and End-tag but some elements have no end-tag(like `<hr>,<br>`). those elements are called empty elements
+- All the HTML elements/tags are case-insensitive
  
+### 4. Attributes
+- All elements can have Attributes.
+- Attributes provide additional information about elements
+- Attributes are always specified in the start tag.
+- Attributes usually come in name/value pairs like: name="value".
+- HTML attributes are generally classified as required attributes, optional attributes, standard attributes, and event attributes [HTML Attributes](https://en.wikipedia.org/wiki/HTML_attribute)
 
 
 
