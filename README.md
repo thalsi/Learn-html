@@ -85,7 +85,8 @@
 - markup language list (html, json, docBook etc..)
 ### 2.HTML Structure Explained
 
-``<!DOCTYPE html>
+~~~
+<!DOCTYPE html>
 <html>
     <head>
         <title>Page Title</title>
@@ -93,7 +94,8 @@
     <body>
         <p>My first paragraph.</p>
     </body>
-</html>``
+</html>
+~~~
 
 - `<!DOCTYPE html>` document type declaration.this document is an HTML5 document and helps browsers to display web pages correctly. not case sensitive
 - `<html></html>` this element is root element of an HTML page.
@@ -103,10 +105,11 @@
 - `<body></body>` element defines the document's body. it will be displayed in a browser
 
 ### 3. Element
-- <tagName>Cotent</tagName>
+- `<tagName> contant here..</tagName>`
 - start tag ,some content and end tag 
-- every elements have Start-tag and End-tag but some elements have no end-tag(like `<hr>,<br>`). those elements are called empty elements
-- All the HTML elements/tags are case-insensitive
+- every elements have Start-tag and End-tag but some elements have no end-tag(like `<hr>, <br>`). those elements are called empty elements
+- All the HTML elements/tags are case-insensitive.
+- Element dispaly type inline and bock .
  
 ### 4. Attributes
 - All elements can have Attributes.
@@ -114,6 +117,26 @@
 - Attributes are always specified in the start tag.
 - Attributes usually come in name/value pairs like: name="value".
 - HTML attributes are generally classified as required attributes, optional attributes, standard attributes, and event attributes [HTML Attributes](https://en.wikipedia.org/wiki/HTML_attribute)
+
+> "You should practice 'event attributes' "
+
+### 5. Element
+
+###### 1. Heading
+- headings are defined with the `<h1>` to `<h6>` tags.
+- Browsers automatically add some white space (a margin) before and after a heading
+- Search engines use the headings to index the structure and content of your web pages.
+
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+
 
 
 
