@@ -109,7 +109,7 @@
 - start tag ,some content and end tag 
 - every elements have Start-tag and End-tag but some elements have no end-tag(like `<hr>, <br>`). those elements are called empty elements
 - All the HTML elements/tags are case-insensitive.
-- Element dispaly type inline and bock .
+- Element dispaly type inline and block .
  
 ### 4. Attributes
 - All elements can have Attributes.
@@ -120,7 +120,7 @@
 
 > "You should practice 'event attributes' "
 
-### 5. Element
+### 5. Tags
 
 ###### 1. Heading
 - headings are defined with the `<h1>` to `<h6>` tags.
@@ -134,6 +134,30 @@
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
+```
+
+###### 2. Paragraphs
+- `<p>This is a paragraph.</p>`
+- A paragraph always starts on a new line.
+- browsers automatically add some white space (a margin) before and after a paragraph.
+- you cannot change the display by adding extra spaces or extra lines in your HTML code
+- The browser will automatically remove any extra spaces and lines when the page is displayed
+```
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p>
 ```
 
 
