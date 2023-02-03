@@ -122,7 +122,7 @@
 
 ### 5. Tags
 
-###### 1. Heading
+###### 1. Heading <h1></h1>
 - headings are defined with the `<h1>` to `<h6>` tags.
 - Browsers automatically add some white space (a margin) before and after a heading
 - Search engines use the headings to index the structure and content of your web pages.
@@ -136,7 +136,7 @@
 <h6>Heading 6</h6>
 ```
 
-###### 2. Paragraphs
+###### 2. Paragraphs <p></p>
 - `<p>This is a paragraph.</p>`
 - A paragraph always starts on a new line.
 - browsers automatically add some white space (a margin) before and after a paragraph.
@@ -159,11 +159,43 @@ but the        browser
 ignores it.
 </p>
 ```
+###### 3. Horizontal Rules <hr>
 
+- `<hr>` displayed as a horizontal rule.
+- `<hr>` tag is a empty tag. 
 
+###### 4. Line Breack <br>
 
+- `<br>` is a line breack tag.
+- if you want a new line without starting a new paragraph.
+- `<br>` is a empty tag. 
 
+###### 5.preformatted <pre>
 
+- `<pre>` element defines preformatted text. 
+- displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+
+- The Poem Problem:-poem will display on a single line.
+```
+<p>
+ this is item paragraph.
+
+ this is item 2 paragraph.
+ 
+ this is item 2 paragraph.
+</p>
+```
+
+- poem will not display on a single line. so use `<pre>`
+```
+<pre>
+ this is item paragraph.
+
+ this is item 2 paragraph.
+ 
+ this is item 2 paragraph.
+</pre>
+```
 
 
 
