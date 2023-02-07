@@ -206,7 +206,18 @@ ignores it.
 <p style="color:blue;">this is style</p>
 ```
 
-
+#### 7. Formatting Elements
+-  display special types of text.
+- `<b></b>`  Bold text
+- `<i></i>`  Italic text
+- `<em></em>`  Emphasized text
+- `<del></del>`  Deleted text
+- `<ins></ins>`  Inserted text
+- `<sub></sub>`  Subscript text
+- `<sup></sup>`  Superscript text
+- `<small></small>`  Smaller text
+- `<strong></strong>`  Important text
+- `<Marked></Marked>`  Italic text
 
 
 
