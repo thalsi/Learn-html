@@ -220,9 +220,28 @@ ignores it.
 - `<Marked></Marked>`  Italic text
 
 
-
-
-
+#### 8. Quotation 
+- `<blockquote>` 
+    + for Quotations
+    + section that is quoted from another source
+- `<q>`
+    + short quotation.
+    + Browsers normally insert quotation marks around the quotation.
+- `<abbr>`
+    + defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+    + Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+    + Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
+- `<address>`
+    + tag defines the contact information for the author.
+    + The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+    + element usually renders in italic.
+- `<cite>`
+    + tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+    + element usually renders in italic.
+- `<bdo>`
+    + BDO stands for Bi-Directional Override.
+    + tag is used to override the current text direction.
+        
 
 
 
