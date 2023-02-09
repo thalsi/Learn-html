@@ -242,6 +242,19 @@ ignores it.
     + BDO stands for Bi-Directional Override.
     + tag is used to override the current text direction.
         
+#### Can you? 
+1. What is HTML?
+2. Can you explain HTML structure?
+3. What is the Element? sytax and example? howmany type?
+4. What is Attributes? howmuch classified Attributes?
+5. Heading?
+6. Paragraphs?
+7. Horizontal Rules?
+8. Line Breack?
+9. preformatted?
+10. Style?
+11. Formatting Elements? ten format?
+12. Quotation? six Quotation?
 
 
 
