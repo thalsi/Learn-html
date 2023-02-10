@@ -241,7 +241,58 @@ ignores it.
 - `<bdo>`
     + BDO stands for Bi-Directional Override.
     + tag is used to override the current text direction.
-        
+
+#### 9. Comments
+
+- comments are not displayed in the browser but  help document
+- more than one line.
+`<!-- Write your comments here -->`
+- Hide Inline Content
+`<p>This <!-- great text --> is a paragraph.</p>`
+
+
+#### 10. Color
+- colors are specified with predefined color name, RGB, RGBA, HSL, HSLA, HEX
+1. Color Name
+    + All modern browsers support the 140 color names
+    + [Color name](https://www.w3schools.com/colors/colors_names.asp)
+    + To display red: red
+
+2. RGB 
+    + RGB - RED,Green,Bule 
+    + formula:- rgb(red, green, bule).
+    + Each parameter pass 0 to 255.
+    + To display black: like this rgb(0,0,0)
+    + To display white: like this rgb(255,255,255) 
+    + To display red: like this rgb(255,0,0) 
+
+3. RGBA 
+    + Formula:- rgba(red, green, blue, alpha)
+    + RGB color values with an Alpha(opacity) channel
+    + alpha parameter is a number 0.0 (fully transparent) to 1.0 (not transparent at all).
+    +  To display red: rgba(255, 99, 71, 0.8)
+
+4. HEX
+    + hexadecimal color is specified with: #rrggbb
+    + 00 and ff (same as decimal 0-255).
+    + hexadecimal mean(0 to 9 - a to f) total 16 decimal number
+    + highest value (ff) and lowest value (00)
+    + To display red: #ff0000
+
+5. HSL
+    + HSL stands for hue, saturation, and lightness.
+    + Formula:- hsl(hue, saturation, lightness).
+    + Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+    + Saturation is a 0% (shade of gray) to 100% (full color). 
+    + Lightness is 0% (black) to 100% (white).
+    + To display red: hsl(0, 100%, 50%)
+
+6. HSLA 
+    + HSL color values, with an Alpha(opacity) channel
+    + Formula:- hsla(hue, saturation, lightness, alpha)
+    + alpha parameter is a number 0.0 (fully transparent) to 1.0 (not transparent at all).
+    + To display red:hsla(0, 100%, 50%, 0.5)
+
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
