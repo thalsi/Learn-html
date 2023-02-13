@@ -293,6 +293,15 @@ ignores it.
     + alpha parameter is a number 0.0 (fully transparent) to 1.0 (not transparent at all).
     + To display red:hsla(0, 100%, 50%, 0.5)
 
+#### 11. Styles - CSS
+- CSS stands for Cascading Style Sheets.
+- It can control the layout of multiple web pages all at once.
+- Quicker Development Time
+- CSS can be added to HTML documents in 3 ways
+    1. Inline - by using the style attribute inside HTML elements.
+    2. Internal - by using a `<style>` element in the `<head>` section.
+    3. External - by using a `<link>` element to link to an external CSS file.
+    
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
