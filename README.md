@@ -301,7 +301,31 @@ ignores it.
     1. Inline - by using the style attribute inside HTML elements.
     2. Internal - by using a `<style>` element in the `<head>` section.
     3. External - by using a `<link>` element to link to an external CSS file.
+#### 12. Images
+- `<img>` tag is used to embed an image in a web page.   
+- Images are not technically inserted into a web page; images are linked to web pages.
+- The `<img>` tag creates a holding space for the referenced image.
+- The `<img>` tag is empty, it contains attributes only.
+- The `<img>` tag has two required attributes:
+    1. src - Specifies the path to the image.
+    2. alt - Specifies an alternate text for the image
+
+```
+<img src="url" alt="alternatetext">
+```
+- Images in Another Folder
+    `<img src="/image/monkey.jpg" alt="Monkey" style="width:100px;height:150px;">`
+
+- Images on Another Server/Website
+    `<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">`
     
+- Image as a Link
+    ```
+    <a href="https://translate.google.com/">
+        <img src="/image/monkey.jpg" alt="Monkey" style="width:42px;height:42px;">
+    </a>
+    ```
+
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
