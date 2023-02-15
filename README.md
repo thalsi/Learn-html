@@ -352,6 +352,7 @@ ignores it.
 ##### 3. picture 
 - `<picture>` element allows you to display different pictures for different devices or screen sizes.
 - `<picture>` element gives web developers more flexibility in specifying image resources.
+-  The `<img>` element is used by browsers that do not support the `<picture>` element, or if none of the `<source>` tags match.
 ```
 <picture>
   <source media="(min-width: 650px)" srcset="img_food.jpg">
