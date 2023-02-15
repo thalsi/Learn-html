@@ -310,6 +310,7 @@ ignores it.
     1. src - Specifies the path to the image.
     2. alt - Specifies an alternate text for the image
 
+
 ```
 <img src="url" alt="alternatetext">
 ```
@@ -325,6 +326,39 @@ ignores it.
         <img src="/image/monkey.jpg" alt="Monkey" style="width:42px;height:42px;">
     </a>
     ```
+##### 1. Image map.   
+- `<map>` tag defines an image map. An image map is an image with clickable areas.The areas are defined with one or more `<area>` tags. `usemap` attribute of the <img> element to point to an image map
+- A clickable area is defined using an `<area>` element
+- Shape
+    + rect 
+    + circle 
+    + poly 
+    + default 
+```
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+```
+##### 2. Background Image.
+-  background image on an HTML element, use the HTML style attribute and the CSS background-image property.
+```
+<p style="background-image: url('abc.jpg');">
+```  
+
+##### 3. picture 
+- `<picture>` element allows you to display different pictures for different devices or screen sizes.
+- `<picture>` element gives web developers more flexibility in specifying image resources.
+```
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+```
 
 #### Can you? 
 1. What is HTML?
