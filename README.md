@@ -360,6 +360,73 @@ ignores it.
   <img src="img_girl.jpg">
 </picture>
 ```
+#### 13. Favicon 
+- A favicon is a small image, so it should be a simple image with high contrast.
+- A common name for a favicon image is "favicon.ico"
+
+#### 14. Table
+- Table cells inside rows and columns.
+- `<table></table>` crate table.
+- `<tr></tr>` mean by table row.
+- `<th></th>` mean by table heading.
+- `<td></td>` mean by table colum/cell
+##### 1.Borders
+1. border -  add a border, use the CSS border property on table, th, and td elements
+2. border-collapse - avoid having double borders.set the CSS "border-collapse" property to "collapse".
+3. Style Table Borders
+4. Round Table Borders - "border-radius" property, the borders get rounded corners.
+5. Dotted Table Borders - "border-style" property, you can set the appearance of the border
+    - dotted     
+    - dashed     
+    - solid     
+    - double     
+    - groove     
+    - ridge     
+    - inset     
+    - outset     
+    - none     
+    - hidden
+6. Border Color - "border-color" property, you can set the color of the border.
+```
+<table>
+    <tr>
+        <th>Hading</th>
+    </tr>
+    <tr>
+        <td>cell</td>
+    </tr>
+</table>
+```
+##### 2.Sizes
+1. Use the "style" attribute with the "width" or "height" properties to specify the size of a table, row or column.
+2. Using a percentage as the size unit for a width means how wide will this element be compared to its parent element, which in this case is the `<body>` element.
+
+##### 2.Headers
+1. Align Table Headers -  use the CSS "text-align" property.
+2. Header for Multiple Columns - use the "colspan" attribute on the `<th>` element.
+3. Table Caption - add a caption that serves as a heading for the entire table.use the `<caption>` tag.The `<caption>` tag should be inserted immediately after the <table> tag.
+
+##### 3. Padding & Spacing
+- tables can adjust the padding inside the cells, and also the space between the cells.
+1. Cell Padding
+    + Cell padding is the space between the cell edges and the cell content.
+    + By default the padding is set to 0.
+    + add padding on table cells, use the "CSS padding" property
+        - padding-top
+        - padding-bottom
+        - padding-left
+        - padding-right 
+2. Cell Spacing
+    + Cell spacing is the space between each cell.
+    + By default the space is set to 2 pixels.
+    + To change the space between table cells, use the "CSS border-spacing" property on the table element
+    
+##### 3. Colspan & Rowspan
+- tables can have cells that span over multiple rows and/or columns.
+1. Colspan
+    + Cell span over multiple columns, use the "colspan" attribute.
+2. Rowspan
+    + Cell span over multiple rows, use the "rowspan" attribute.
 
 #### Can you? 
 1. What is HTML?
