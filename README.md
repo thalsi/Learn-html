@@ -74,7 +74,7 @@
 
 
 
-# HTML (www.w3schools.com)
+# HTML
 
 ### 1.What is html?
 - Hyper Text Markup Language.
@@ -404,7 +404,7 @@ ignores it.
 ##### 2.Headers
 1. Align Table Headers -  use the CSS "text-align" property.
 2. Header for Multiple Columns - use the "colspan" attribute on the `<th>` element.
-3. Table Caption - add a caption that serves as a heading for the entire table.use the `<caption>` tag.The `<caption>` tag should be inserted immediately after the <table> tag.
+3. Table Caption - add a caption that serves as a heading for the entire table.use the `<caption>` tag.The `<caption>` tag should be inserted immediately after the `<table>` tag.
 
 ##### 3. Padding & Spacing
 - tables can adjust the padding inside the cells, and also the space between the cells.
@@ -421,13 +421,76 @@ ignores it.
     + By default the space is set to 2 pixels.
     + To change the space between table cells, use the "CSS border-spacing" property on the table element
     
-##### 3. Colspan & Rowspan
+##### 4. Colspan & Rowspan
 - tables can have cells that span over multiple rows and/or columns.
 1. Colspan
     + Cell span over multiple columns, use the "colspan" attribute.
 2. Rowspan
     + Cell span over multiple rows, use the "rowspan" attribute.
 
+##### 5. Table Styling
+- Use CSS to make your tables look better. use the ":nth-child(even/odd)"
+1. Zebra Stripes
+2. Vertical Zebra Stripes
+3. Vertical and Horizontal Zebra Stripes
+4. Horizontal Dividers
+5. Hoverable Table - Use the :hover selector on tr to highlight table rows on mouse over.
+
+##### 6. Table Colgroup
+- `<colgroup>` element is used to style specific columns of a table.
+-  The `<colgroup>` tag must be a child of a `<table>` element and should be placed before any other table elements, like `<thead>, <tr>, <td>` etc.
+- Each group is specified with a `<col>` element.
+    + "span" attribute specifies how many columns that get the style.
+    + "style" attribute specifies the style to give the columns.
+- Legal CSS Properties - There is only a very limited selection of CSS properties 
+    1. width property
+    2. visibility property
+    3. background properties
+    4. border properties
+##### 1. Multiple Col Elements
+```
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+    <col span="3" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+  </tr>
+  ...
+```
+##### 2. Empty Colgroups
+```
+<table>
+  <colgroup>
+    <col span="3">
+    <col span="2" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+...
+```
+##### 2. Hide  Columns
+- hide columns with the visibility: collapse property
+```
+<table>
+  <colgroup>
+    <col span="2">
+    <col span="3" style="visibility: collapse">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+...
+```
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
@@ -533,13 +596,3 @@ ignores it.
 - `https://github.com/topics/roadmap?l=html`
 
 
-
-
-
-
-***
-***
-# My HTML
-
-***
-***
