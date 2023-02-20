@@ -491,6 +491,36 @@ ignores it.
     <th>THU</th>
 ...
 ```
+
+#### 15. Lists
+- Group a set of related items in lists.
+- Type of list
+    1. Odered list
+        + `<ol>` tag defines an ordered list. An ordered list can be numerical or alphabetical.
+        + An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
+        + The type attribute of the `<ol>` tag, defines the type:- type="1", type="A", type="a", type="I", type="i".
+
+    2. Unodered list
+        + `<ul>` tag defines an unordered (bulleted) list.
+        + An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
+        + The CSS "list-style-type" property is used to define the style of the list item marker.  defines the type:-disc, circle, square, none.
+
+    3. Description list
+        + A description list is a list of terms, with a description of each term.
+        + The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term.
+
+#### 16. Block and Inline Elements
+- There are two display values: block and inline.
+
+1. Block-level Elements
+    + A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+    + A block-level element always takes up the full width available
+    + eg:- `<p></p>`, `<div></div>`, etc..
+
+2. Inline Elements
+    + An inline element does not start on a new line.
+    + An inline element only takes up as much width as necessary.
+    + eg:- `<span>`,`<hr>`, etc.. 
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
