@@ -3,3 +3,17 @@
     height: 200px;
     background-color: rgb(243, 98, 98);
 }
+
+.className{
+    background-color: darkgoldenrod;
+    padding-bottom: 10px;
+}
+
+.className2{
+    color: deeppink;
+}
+
+#ptag{
+    color: aqua;
+    background-color: forestgreen;
+}

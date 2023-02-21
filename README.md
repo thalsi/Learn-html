@@ -521,6 +521,26 @@ ignores it.
     + An inline element does not start on a new line.
     + An inline element only takes up as much width as necessary.
     + eg:- `<span>`,`<hr>`, etc.. 
+
+#### 17. class Attribute
+- The "class" attribute can be used on any HTML element.
+- Multiple classes use in one element.
+- Different Elements Can Share Same Class
+- Use of The class Attribute in JavaScript
+
+#### 18. id Attribute
+- The "id" attribute specifies a unique id for an HTML element.
+- The "id" attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific "id".
+- The id name is case sensitive!.
+- A "class" name can be used by multiple HTML elements, while an "id" name must only be used by one HTML element within the page.
+- Using The id Attribute in JavaScript
+    + JavaScript can access an element with a specific id with the "getElementById()" method
+- HTML Bookmarks with ID and Links
+    + bookmarks are used to allow readers to jump to specific parts of a webpage.
+    ```
+    <p><a href="#C4">Jump to Chapter 4</a></p>
+    <h2 id="C4">Chapter 4</h2>
+    ```
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
