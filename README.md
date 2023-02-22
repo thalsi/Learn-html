@@ -541,6 +541,18 @@ ignores it.
     <p><a href="#C4">Jump to Chapter 4</a></p>
     <h2 id="C4">Chapter 4</h2>
     ```
+#### 19. script tag
+- `<script>` tag is used to define a client-side script (JavaScript).
+- The `<script>` element either contains script statements, or it points to an external script file through the src attribute.
+
+#### 20. File Paths
+- A file path describes the location of a file in a web site's folder structure.
+1. Absolute File Paths
+    + An absolute file path is the full URL to a file.
+    + `<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">`
+2. Relative File Paths
+    + A relative file path points to a file relative to the current page.
+    + `<img src="/images/picture.jpg" alt="Mountain">`
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
