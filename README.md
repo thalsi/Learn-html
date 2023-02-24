@@ -553,6 +553,21 @@ ignores it.
 2. Relative File Paths
     + A relative file path points to a file relative to the current page.
     + `<img src="/images/picture.jpg" alt="Mountain">`
+
+
+#### 20. iframes
+- iframe is used to display a web page within a web page.
+- `<iframe>` tag specifies an inline frame(iframe element loads another HTML page within the document).
+- It is a good practice to always include a "title attribute" for the `<iframe>`. This is used by screen readers to read out what the content of the iframe.
+
+##### 1. Target for a Link
+- An iframe can be used as the target frame for a link.
+- The "target attribute" of the link must refer to the "name attribute" of the iframe.
+```
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+```
+
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
