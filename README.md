@@ -101,7 +101,18 @@
 - `<html></html>` this element is root element of an HTML page.
 - `<head></head>` this element contains meta data/meta information about the HTML page. 
     + meta data( data that provides information about other data / data that describes other data / information about data)
-- `<title></title>` title of the HTML page(show on bowser's title bar).
+1. `<meta>`Element
+    + The `<meta>` element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.
+    + Define the character set used `<meta charset="UTF-8">`
+    + Define keywords for search engines `<meta name="keywords" content="HTML, CSS, JavaScript">`
+    + Define a description of your web page `<meta name="description" content="Free Web tutorials">`
+    + Define the author of a page `<meta name="author" content="John Doe">`
+    + Refresh document every 30 seconds `<meta http-equiv="refresh" content="30">`
+    + Setting the viewport to make your website look good on all devices `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+    + 
+- `<title></title>` 
+    + title of the HTML page(show on bowser's title bar).
+    + The content of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results.
 - `<body></body>` element defines the document's body. it will be displayed in a browser
 
 ### 3. Element
