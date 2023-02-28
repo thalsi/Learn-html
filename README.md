@@ -595,6 +595,13 @@ ignores it.
 3. CSS flexbox
 4. CSS grid
  
+#### 23. Responsive Web Design
+- Responsive web design is about creating web pages that look good on all devices
+- A responsive web design will automatically adjust for different screen sizes and viewports
+- Setting The Viewport
+    + `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
