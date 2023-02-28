@@ -601,7 +601,13 @@ ignores it.
 - Setting The Viewport
     + `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 
-
+1. Responsive Images
+- Responsive images are images that scale nicely to fit any browser size.
+- "CSS width property" is set to 100%, the image will be responsive and scale up and down.
+    + `<img src="img_girl.jpg" style="width:100%;">`
+- Notice that in the example above, the image can be scaled up to be larger than its original size. A better solution, in many cases, will be to use the "max-width" property instead.    
+    + `<img src="img_girl.jpg" style="max-width:100%;height:auto;">`
+    
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
