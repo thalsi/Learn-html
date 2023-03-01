@@ -338,7 +338,7 @@ ignores it.
     </a>
     ```
 ##### 1. Image map.   
-- `<map>` tag defines an image map. An image map is an image with clickable areas.The areas are defined with one or more `<area>` tags. `usemap` attribute of the <img> element to point to an image map
+- `<map>` tag defines an image map. An image map is an image with clickable areas.The areas are defined with one or more `<area>` tags. `usemap` attribute of the `<img>` element to point to an image map
 - A clickable area is defined using an `<area>` element
 - Shape
     + rect 
@@ -487,7 +487,7 @@ ignores it.
     <th>THU</th>
 ...
 ```
-##### 2. Hide  Columns
+##### 2. Hide Columns
 - hide columns with the visibility: collapse property
 ```
 <table>
@@ -659,11 +659,36 @@ ignores it.
 10. Style?
 11. Formatting Elements? ten format?
 12. Quotation? six Quotation?
-
-
-
-
-
+13. can you write Comments and inline Comments?
+14. What are predefined Color? which one? explian those?
+15. What is style CSS? how many way can be added to HTML documents?
+16. What is Images tag and required attributes?
+    1. what is Image map? how many Shape and example?
+    2. What is  Background Image?
+    3. What is picture?
+17. What is Favicon?  
+18. What is Table?
+    1. what is Borders?
+    2. Sizes?
+    3. what is headers?.Can you write Headers for table?
+    4. what is Padding & Spacing?.Can you write Padding & Spacing?
+    5. What is Colspan & Rowspan?.can you write Colspan & Rowspan?
+    6. What is Table Styling?
+    7. What is Table Colgroup?
+        1. Multiple Col Elements?
+        2. Empty Colgroups?
+        3. Hide Columns?
+19. What is Lists? how many type?explan.
+20. What is Block and Inline Elements?
+21. What is class Attribute?
+22. What is  id Attribute?
+23. What is script tag?
+24. What is File Paths? how many?
+25. What is iframes?
+    1. Target for a Link?
+26. what is Layout Elements? explan.
+27. what is the Layout Techniques?
+28. What is Responsive Web Design?
 
 
 
