@@ -608,6 +608,44 @@ ignores it.
 - Notice that in the example above, the image can be scaled up to be larger than its original size. A better solution, in many cases, will be to use the "max-width" property instead.    
     + `<img src="img_girl.jpg" style="max-width:100%;height:auto;">`
     
+##### 1. Show Different Images Depending on Browser Width
+- `<picture>` element allows you to define different images for different browser window sizes.
+```
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+```
+##### 2. Responsive Text Size
+- The text size can be set with a "vw" unit, which means the "viewport width".
+- Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+`<h1 style="font-size:10vw">Hello World</h1>`
+
+##### 3. Media Queries
+- In addition to resize text and images, it is also common to use media queries in responsive web pages.
+- media queries you can define completely different styles for different browser sizes.
+```
+<style>
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+```
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?

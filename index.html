@@ -343,3 +343,28 @@ ignores it.
 <h6>3. max-width image</h6>
 <!-- the image will scale down if it has to, but never scale up to be larger than its original size -->
 <img src="/image/a.png" style="max-width: 100%;">
+
+<h6>4. picture</h6>
+
+<picture>
+    <source srcset="/image/b.jpg" media="(max-width: 800px)">
+    <source srcset="/image/c.jpg"  media="(max-width: 600px)">
+    <source srcset="/image/a.png"  media="(max-width: 400px)">
+    <img src="/image/c.jpg" alt="picture base">
+</picture>
+
+<h6>5. Responsive Text Size</h6>
+
+<h6 style="font-size: 10vw;">This is a Responsive Text Size </h6>
+
+
+<h6>7. Media Queries</h6>
+<div class="left">
+    Left
+</div>
+<div class="main">
+    Main
+</div>
+<div class="right">
+    Right
+</div>
