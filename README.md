@@ -681,6 +681,27 @@ z = x + y;
 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
 ```
 
+####  25. Semantic Elements
+
+- semantic element clearly describes its meaning to both the browser and the developer.
+- non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
+- semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines its content.
+- Many web sites contain HTML code like: `<div id="nav"> <div class="header"> <div id="footer">` to indicate navigation, header, and footer.
+```
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+```
 #### Can you? 
 1. What is HTML?
 2. Can you explain HTML structure?
